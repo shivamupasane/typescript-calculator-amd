@@ -1,0 +1,23 @@
+{
+  "name": "typescript-calculator-amd",
+  "version": "1.0.0",
+  "description": "\"# typescript-calculator-amd\"",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc -p tsconfig.build.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "requirejs": "2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivamupasane/typescript-calculator-amd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivamupasane/typescript-calculator-amd/issues"
+  },
+  "homepage": "https://github.com/shivamupasane/typescript-calculator-amd#readme"
+}
